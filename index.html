@@ -1,1 +1,242 @@
+border-top-right-radius: 0; /* Redondea solo la esquina superior izquierda */
+      border-bottom-left-radius: 0;
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina proyecto</title>
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ 
+  <style>
+  .navbar {
+  background-color: #f0ebd7;
+ 
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link {
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+.inicio {
+  background-color: #f0ebd7;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.btn-text {
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: #f0ebd7;
+  border: 2px solid red;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+.second {
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  background-color: #f0ebd7;
+}
+.col {
+  text-align: center;
+}
+.mar {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+ 
+}
+.mar h1 {
+  font-weight: 400;
+  font-size: 80px;
+}
+.medio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.medio img {
+  border-radius: 30px;
+}
+.intento {
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.card {
+  width: calc(80% - 5px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card.margen {
+  margin-left: 50px;
+ 
+}
+.card.marjen {
+  margin-right: 50px;
+}
+.negro {
+  background-image: url(https://i.pinimg.com/564x/47/16/b4/4716b488833adaf173f14bb92bb841d8.jpg);
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.negro h1 {
+  font-size: 250px;
+  font-weight: 400;
+}
+.negro h6 {
+  font-size: 75px;
+  font-weight: 100;
+}
+.boton {
+      border-radius: 20px;
+      background-color: white;
+      border: 2px solid red;
+      color: black;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .destacado {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SeeQueer</a>
+
+
+
+
+        <div class="navbar-nav">
+          <a class="nav-link" href="#">Inicio</a>
+          <a class="nav-link" href="#">Porque nosotros</a>
+          <a class="nav-link" href="#">Funcionalidad</a>
+        </div>
+       
+        <a class="btn btn-primary btn-text" aria-current="page" href="#">Comenzar</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid inicio">
+      <div class="row">
+        <div class="col-md-3">
+         
+        </div>
+        <div class="col-md-6">
+          <div class="mar">
+            <h1>THE FUTURE</h1>
+            <h1>SCHOOL IS HERE</h1>
+          </div>
+        </div>
+        <div class="col-md-3">
+       
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="intento">
+      <!-- Encabezado que abarca las tres tarjetas -->
+      <div class="row">
+        <div class="col">
+          <p>Construye relaciones y equipos de trabajo genuinos</p>
+        </div>
+      </div>
+   
+      <!-- Tarjetas -->
+      <div class="row">
+        <!-- Primera tarjeta -->
+        <div class="row mx-auto">
+          <div class="col-md-4 ">
+            <div class="card margen">
+              <div class="card-body">
+                <h1>$10</h1>
+                <h5 class="card-title">Esta bara!</h5>
+                <p class="card-text">No rompas el cochinito con membresías caras. Hecho con amor.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Segunda tarjeta -->
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h1>20x</h1>
+                <h5 class="card-title">Más efectiva</h5>
+                <p class="card-text">Hay un chorro de servicios y muchos no cumplen las expectativas aquí nel.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Tercera tarjeta -->
+          <div class="col-md-4 mx-auto">
+            <div class="card marjen">
+              <div class="card-body">
+                <h1>100x</h1>
+                <h5 class="card-title">Más practica</h5>
+                <p class="card-text">Herramientas, guías, vinculaciones, administración. Todo aquí!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+   
+    <div class="container medio mb-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://i.pinimg.com/564x/df/05/80/df058060e3cd03d61dc468e8b013f0c3.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <h2>Inspiration found <br> at <span class="destacado">every turn</span></h2>
+          <p>Sabemos que quieres mejorar y por eso estamos aquí, apoyándote y brindandote las herramientas
+            necesarias para que tus años de escuela sean más productivos y con menos dolores de cabeza.
+            <br>
+            <br>Creemos que una buena organización facilita todo, por ende centralizamos toda la información
+            relacionada a tus clases en un solo lugar y sin necesidad de tantos clicks.</p>
+          <a href="#" class="boton">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+    <div class="negro">
+      <h1>Registrate</h1>
+      <h6>No dejes pasar esta oportunidad y conócenos</h6>
+    </div>
+  </footer>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
 
